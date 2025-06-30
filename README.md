@@ -1,12 +1,16 @@
 Created by: mr.shakey
 Overview
 AdminX is a comprehensive command-line security assessment tool designed for penetration testers, security researchers, and system administrators. Built with bash scripting for maximum compatibility and lightweight deployment, AdminX provides essential web application security testing capabilities in a single, portable tool.
+
 Core Features
 🔍 XSS Vulnerability Detection
 
 Cross-Site Scripting Scanner: Identifies reflected, stored, and DOM-based XSS vulnerabilities
+
 Payload Injection: Tests web forms and parameters with various XSS payloads
+
 Response Analysis: Analyzes server responses to detect successful XSS injection points
+
 Filter Bypass: Attempts to bypass common XSS filters and WAF protections
 
 🔐 Authentication Security Testing
