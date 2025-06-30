@@ -43,6 +43,16 @@ Security Audits: Systematic evaluation of web application security posture
 Development Testing: Pre-deployment security validation for development teams
 Compliance Verification: Ensure applications meet security standards
 
+Advanced Options..>>
+
+./adminx.sh -u https://example-admin-panel.com/login \
+                -p "<script>alert(document.cookie)</script>" \
+                -c /tmp/admin_cookies.txt \
+                -l /var/log/xss_attack.log \
+                -d /tmp/xss_attack_dir \
+                -v /tmp/vulnerabilities.txt \
+                -x /tmp/xss_payloads.txt
+
 Technical Specifications
 
 Platform: Cross-platform bash script
